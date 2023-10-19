@@ -1,7 +1,7 @@
 let nomeHerio = "Romario"
-let xpAtual = 7007
+let xpAtual = 10001
 
-let XP = [1000, 2000, 5000,    7000, 8000, 9000 , 10.000]
+let XP = [1000, 2000, 5000, 7000, 8000, 9000 , 10.000]
 
 
 if (xpAtual < XP[0]){
@@ -39,8 +39,8 @@ for (let i=0; i < XP.length; i++ ){
     }
 }
 
-switch (XP) {
-    case 1000:
+switch (xpAtual) {
+    case XP[0]:
        console.log(`O Herói de nome ${nomeHerio} está no nível de ferro`)   
     break;
     case 1001:
